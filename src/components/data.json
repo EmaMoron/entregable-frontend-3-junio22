@@ -22,5 +22,13 @@
             "descripcion": "Urbanas, livianas y frescas, las Zapatillas adidas Coreracer están pensadas para cumplir con las demandas de los corredores más exigentes. Su suela tiene un estabilizador de talón y su capellada es transpirable para mantener el confort que mereces durante todo tu trayecto."
         },
         "stock": 3
+    },
+    {
+        "id": "4",
+        "producto": {
+            "nombre": "Zapatillas Ardidas Coreracer",
+            "descripcion": "Urbanas, livianas y frescas, las Zapatillas adidas Coreracer están pensadas para cumplir con las demandas de los corredores más exigentes. Su suela tiene un estabilizador de talón y su capellada es transpirable para mantener el confort que mereces durante todo tu trayecto."
+        },
+        "stock": 8
     }
 ]

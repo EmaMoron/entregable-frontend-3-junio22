@@ -5,12 +5,19 @@
 // MÉTODOS: App debe tener un método para aumentar este número y que pueda ser ejecutado por su nieto Item.
 // PROPS: App deberá pasar por props lo necesario a sus componenetes internos.
 
-function App() {
+import { useState } from "react";
+import Cabecera from "./components/Cabecera";
+import Listado from "./components/Listado";
+import data from "./components/data.json"
 
+
+function App() {
+  var [compra, setCompra] = useState(0)
+  var [items, setItems] = useState(data)
   return (
     <div className="App">
-      <Cabecera />
-      <Listado />
+      <Cabecera compra={compra} />
+      <Listado items={items} setItems={setItems} setCompra={setCompra} compra={compra} />
     </div>
   );
 }
